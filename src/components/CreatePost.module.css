@@ -1,0 +1,47 @@
+.create_container {
+  width: 80%;
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  padding: 20px;
+  margin:10% auto;
+}
+
+/* 
+  border: 2px solid rgb(211, 211, 211);
+  border-radius: 5px;
+  padding: 20px; */
+.form_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container label {
+  font-size: 16px;
+  color: #0d6efd;
+  display: block;
+  padding: 5px 0;
+}
+
+.form_container input,
+select {
+  width: 50%;
+}
+
+textarea {
+  width: 80%;
+  height: 200px;
+}
+
+.submitButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  align-self: flex-end;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+}

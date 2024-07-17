@@ -1,0 +1,19 @@
+.blog_post{
+    border: 2px solid grey;
+    margin: 20px 10px 20px 10px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top:7%;
+}
+
+.post_title{
+    text-align: center;
+}
+
+ 
+
+.post_image {
+    width: 60%; /* Or any specific width */
+    height: 300px; /* Or any specific height */
+    margin-left: 20%;
+}

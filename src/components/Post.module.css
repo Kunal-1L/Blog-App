@@ -1,0 +1,28 @@
+.blog_container {
+    margin-top:30px;
+    padding:20px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+}
+
+.blog_img img {
+    width: 400px;
+    height: 350px;
+    object-fit: contain; 
+    border-radius: 5px;
+    box-shadow: 2px  grey;
+}
+
+.blog_title {
+    font-size:40px;
+    cursor: pointer;
+}
+
+.blog_title:active{
+   color:grey;
+}

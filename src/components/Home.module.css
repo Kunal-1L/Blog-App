@@ -1,0 +1,45 @@
+.home_container {
+    margin-top: 7%;
+ }
+
+ .theme_container > h1{
+    margin-left:5px;
+
+ }
+ .theme_container > h1:active{
+    color:grey;
+    
+ }
+ .posts_container{
+    display: flex;
+    justify-content: center;
+ }
+.posts_container > div {
+    width: 350px;
+    padding: 5px;
+}
+
+.posts_container img {
+    width: 300px;
+    height: 250px;
+}
+
+.items{
+    border: 2px solid grey;
+    border-radius: 5px;
+    margin:3px;
+}
+
+.posts_container h3 {
+    width: 300px;
+}
+
+.items > h3{
+    cursor:pointer;
+}
+
+.items > h3:active{
+    color:grey;
+ }
+
+
