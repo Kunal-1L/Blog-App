@@ -8,7 +8,7 @@ data storage, and MongoDB for additional data management.
 - User authentication and authorization
 - Create and read blog posts
 - View posts by themes
-- Like posts
+- Like and comment posts
 
 ## Technologies Used
 
